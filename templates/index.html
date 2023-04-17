@@ -6,7 +6,7 @@
   <body>
     <p class="tit">video downloader</p>
     <form method="post" action="{{ url_for('preview', url=url|urlencode) }}">
-      <label class="lab" for="url">YouTube URL:</label>
+      <label class="lab" for="url">ENTER URL:</label>
       <input class="inp" type="text" id="url" name="url" required>
       <button class="sub1" type="submit">Preview</button>
     </form>
